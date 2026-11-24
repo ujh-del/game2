@@ -1,0 +1,18 @@
+project: heart-town-finance
+mode: continuous
+phase: build
+dt_handoff: inferred_from_user_brief
+requirements_version: 1
+approved_scope:
+  - two playable levels
+  - one financial-literacy interaction per level
+  - score per level and final progress summary
+  - Godot project source and Blender-generated 3D props
+assumptions:
+  - Godot 4 desktop target
+  - Traditional Chinese UI for elementary learners
+  - keyboard controls are acceptable for the first prototype
+  - visual direction is a cheerful low-poly riverside village inspired by the supplied reference
+open_blockers:
+  - Godot executable was not found on this machine
+  - requested C:/Godot and C:/blender directories do not exist
